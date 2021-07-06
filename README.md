@@ -4,6 +4,7 @@
 - Normalization
 - Whitening
 - Neural network
+- Graph network
 - Gas chemical potential
 - Monte Carlo
 - ...
