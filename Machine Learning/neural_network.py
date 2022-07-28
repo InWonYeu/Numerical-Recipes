@@ -74,4 +74,4 @@ print("Input= ", input_list, "Output= ", "%4f" % NN.feedforward(input_list)[0, 0
 epochs = 30
 for e in range(epochs):
     NN.backprop(input_list, target_list)
-    print("Epoch= %4d" % (e + 1), "Output= ", "%4f" % NN.feedforward(input_list)[0, 0], " Target= ", target_list[0])
+    print("Epoch= %4d" % (e + 1), "Output= ", "%4f" % NN.feedforward(input_list)[0, 0], " Target= ", target_list[0]) # test
